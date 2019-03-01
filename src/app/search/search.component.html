@@ -1,0 +1,95 @@
+<div class="fluid-container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-body">
+          <kendo-grid
+            [kendoGridBinding]="gridData"
+            [pageSize]="10"
+            [pageable]="true"
+            [sortable]="true"
+          >
+            <kendo-grid-column field="Title" [width]="140"></kendo-grid-column>
+            <kendo-grid-column
+              field="Start Date"
+              [width]="120"
+            ></kendo-grid-column>
+            <kendo-grid-column
+              field="End Date"
+              [width]="100"
+            ></kendo-grid-column>
+            <kendo-grid-column field="Status" [width]="130"></kendo-grid-column>
+          </kendo-grid>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="row searchBoarder">
+        <h6 class=""><b>Search</b></h6>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-12">
+          <div class="form-group">
+            <input class="form-control form-control-sm" type="text" />
+          </div>
+        </div>
+      </div>
+      <label for=""> EOSL date range</label>
+      <div class="row ">
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" type="date" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input class="form-control" type="date" />
+          </div>
+        </div>
+      </div>
+      <label for=""> Published date range</label>
+      <div class="row ">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input class="form-control" type="date" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input class="form-control" type="date" />
+            </div>
+          </div>
+        </div>
+        <label for=""> Product Type</label>
+        <div class="row ">
+            <div class="col-md-12">
+              <div class="form-group">
+                <select class="form-control form-control-sm"></select>
+              </div>
+            </div>
+          </div>
+          <label for=""> OEM</label>
+          <div class="row ">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <select class="form-control form-control-sm"></select>
+                </div>
+              </div>
+            </div>
+            <label for=""> Product </label>
+            <div class="row ">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <select class="form-control form-control-sm"></select>
+                  </div>
+                </div>
+              </div>
+              <div class="searchBoarder"></div>
+              <div class="col-md-12 mt-2">
+                  <button type="button" class="btn btn-primary">Search</button>
+                  <button type="button" class="btn btn-secondary ml-2 ">Reset</button>
+
+              </div>
+    </div>
+  </div>
+</div>

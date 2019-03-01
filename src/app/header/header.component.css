@@ -1,0 +1,15 @@
+a .nav-link :active{
+  color: #fff;
+}
+a :active{
+  color: #fff;
+}
+.class1{
+  font-weight: bold;
+  /* border-bottom: 5px solid red; */
+
+  color: #fff;
+}
+.backGround{
+  background-color: #3a3ac5;
+}
