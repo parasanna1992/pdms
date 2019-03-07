@@ -16,3 +16,6 @@ my-app > .k-icon.k-i-loading { font-size: 64px; position: absolute; top: 50%; le
 .heading{
   text-align: center;
 }
+.k-pager-numbers .k-state-selected{
+  background-color: #009fdf !important;
+}
