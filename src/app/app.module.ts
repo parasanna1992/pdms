@@ -15,13 +15,21 @@ import { ProductsService } from './services/products.service';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
+import { OemsComponent } from './oems/oems.component';
+import { ProductTypesComponent } from './product-types/product-types.component';
+import { ProductsComponent } from './products/products.component';
+import { ModelsComponent } from './models/models.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     ServicesComponent,
     HeaderComponent,
-    SearchComponent
+    SearchComponent,
+    OemsComponent,
+    ProductTypesComponent,
+    ProductsComponent,
+    ModelsComponent
   ],
   imports: [
     BrowserModule,
