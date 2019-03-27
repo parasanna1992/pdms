@@ -19,3 +19,89 @@ my-app > .k-icon.k-i-loading { font-size: 64px; position: absolute; top: 50%; le
 .k-pager-numbers .k-state-selected{
   background-color: #009fdf !important;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #3498db;
+    border-color: #3498db;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3498db;
+  border-color: #3498db;
+}
+.btn-secondary {
+  color: #666666;
+  background-color: #f0f0f0;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.12) rgba(0, 0, 0, 0.15);
+}
+.btn-secondary:hover {
+color: #666666;
+background-color: #f0f0f0;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.12) rgba(0, 0, 0, 0.15);
+
+}
+
+element.style {
+}
+.k-filtercell .k-filtercell-operator {
+    margin-left: 4px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+<style>…</style>
+.k-grid .k-filter-row td {
+    white-space: nowrap;
+}
+.k-filter-row td, .k-filter-row th {
+    border-width: 0 0 1px 1px;
+    white-space: nowrap;
+    padding: 8px 8px;
+}
+.k-grid th, .k-grid td {
+    padding: 8px 12px;
+    border-style: solid;
+    border-color: inherit;
+    outline: 0;
+    font-weight: inherit;
+    text-align: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.k-filter-row {
+    line-height: 1.4285714286;
+}
+.k-grid thead, .k-grid tbody, .k-grid tfoot {
+    text-align: left;
+    border-color: inherit;
+}
+.k-grid table {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+    border-width: 0;
+    border-color: inherit;
+    border-collapse: separate;
+    border-spacing: 0;
+    empty-cells: show;
+    outline: 0;
+}
+table {
+    border-collapse: collapse;
+}
+.k-filtercell {
+  width: auto;
+  display: flex;
+}
+.k-link {
+  color: #009fdf !important;
+  font-weight: bold !important;
+}
+.k-icon {
+  color: #009fdf !important;
+}
+.k-pager-numbers .k-state-selected {
+  color: #fff !important;
+  background-color: #ff6358 !important;
+}
